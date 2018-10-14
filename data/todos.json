@@ -1,3 +1,14 @@
 {
-    "todos": []
+    "todos": [
+        {
+            "text": "tersyt",
+            "timestamp": "2018/10/14",
+            "id": 11
+        },
+        {
+            "text": "dsdsad",
+            "timestamp": "2018/10/14",
+            "id": 12
+        }
+    ]
 }
