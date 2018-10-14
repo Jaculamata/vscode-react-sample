@@ -10,7 +10,6 @@ for Build 2016 session workshop.
 ```bash
 # clone repo
 git clone https://github.com/Microsoft/vscode-react-sample.git react-todo
-git test
 
 # navigate to repo
 cd react-todo
