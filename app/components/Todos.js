@@ -13,7 +13,7 @@ class Todos extends React.Component {
       super();
       this.styles = {
         float: 'left',
-        width: '50%',
+        width: '24%',
         margin: '3%'
       };
       this.state = { todos: [] };

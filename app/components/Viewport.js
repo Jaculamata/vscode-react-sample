@@ -2,7 +2,7 @@ import React from 'react';
 
 import Todos from './Todos';
 import NewTodo from './NewTodo';
-
+import DeleteTodos from './DeleteTodos'
 class Viewport extends React.Component {
 
     constructor() {
@@ -18,7 +18,9 @@ class Viewport extends React.Component {
             <div style={this.styles}>
                 <NewTodo />
                 <Todos />
+                <DeleteTodos />
             </div>
+            
         );
      }
 }

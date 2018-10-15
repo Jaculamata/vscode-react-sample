@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var _ = require('lodash');
 
 var database = require('./database');
+var databasedelete = require('./databasedelete');
 
 // Create server
 var server = express();
@@ -24,6 +25,13 @@ server.get('/todos', function(req, res, next) {
     next();
   });
 });
+
+server.get('/deletetodos',function(req,res,next){
+  databasedelete.getAll(function(deletetodos){
+    res.send(deletetodos);
+    next();
+  })
+})
 
 server.post('/todos', function(req, res, next) {
   var todo = req.body;
